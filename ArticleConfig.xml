@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<AlteryxJavaScriptPlugin>
+  <EngineSettings EngineDll="Python" EngineDllEntryPoint="Article_Engine.py" SDKVersion="10.1" />
+  <GuiSettings Html="Article_GUI.html" Icon="Article_Icon.png" Help="https://help.alteryx.com/developer/current/index.htm#Python/Examples.htm" SDKVersion="10.1">
+    <InputConnections>
+      <Connection Name="Input" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
+    </InputConnections>
+    <OutputConnections>
+      <Connection Name="Output" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
+    </OutputConnections>
+  </GuiSettings>
+  <Properties>
+    <MetaInfo>
+      <Name>Python - Article Summary (Newspaper3k)</Name>
+      <Description>Returns the most relevant sentences from a supplied URL.</Description>
+      <ToolVersion>1.1</ToolVersion>
+      <CategoryName>Laboratory</CategoryName>
+      <SearchTags>python, sdk, text analytics, text, nlp, python sdk</SearchTags>
+      <Author>Nick Jewell</Author>
+      <Company>Alteryx, Inc.</Company>
+      <Copyright>2018</Copyright>
+    </MetaInfo>
+  </Properties>
+</AlteryxJavaScriptPlugin>
